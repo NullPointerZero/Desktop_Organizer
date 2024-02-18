@@ -1,0 +1,4 @@
+whitelist.txt
+folderconfig.json
+Readme.txt
+Desktop_sorter.py

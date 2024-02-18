@@ -1,0 +1,13 @@
+To do:
+- Das Programm kann die Dateien zwar in Ordner sortieren die so heißen wie die Dateiendung, 
+ist aber nur bedingt sinnvoll. Wesentlich geiler wäre es dass eine .jpg Datei in einen Ordner gesteckt wird der 
+"Bilder" heißt, und nicht "Jpg". Netter Nebeneffekt: es könnte festgelegt werden dass unterschiedliche Dateitypen, 
+in den gleichen Ordner sortiert werden. 
+- Hierfür müsste eine Function/Programm geschrieben werden welches eine JSON Datei einliest und den Inhalt in ein Dictionary schreibt.
+Die Json Datei kommt dann einer config Datei gleich. Im Format "Dateityp" : "Ordnername in den die Datei soll."
+Hier kann auch die Whitelist festgelegt werden im Format Dateityp: Nichtsortieren. 
+
+Die Reihenfolge sollte also sein:
+Config lesen -> in dictionairy -> Desktopdateiliste -> Jede Dateiendung mit Config abgleichen ->
+Dateiendung in Config = in entsprechenden Ordner setzen. Dateiendung nicht in Config = Ordner mit Dateiendung
+erstellen und Datei dort einsetzen. 
