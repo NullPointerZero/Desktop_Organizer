@@ -41,4 +41,6 @@ def make_directories(foldercontent, current_path, whitelist, sub_dir = "sorted")
         else:
             print(f"Directory '{file_type}' has been created")
     
-    return 
+    return
+
+#change made
