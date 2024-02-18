@@ -11,3 +11,5 @@ Here some User Stories to help me get structure:
 - But "Cleaned" doesnt necessarily mean "empty". -> as a user i want some folders/files on Desktop. 
 - "cleaned" also doesnt mean "deleted" - that would be a cheap organizer :P       -> the files should be organized in an appropriate folder. 
 
+
+So far it can already create the target folders for the files. 

@@ -10,4 +10,7 @@ Hier kann auch die Whitelist festgelegt werden im Format Dateityp: Nichtsortiere
 Die Reihenfolge sollte also sein:
 Config lesen -> in dictionairy -> Desktopdateiliste -> Jede Dateiendung mit Config abgleichen ->
 Dateiendung in Config = in entsprechenden Ordner setzen. Dateiendung nicht in Config = Ordner mit Dateiendung
-erstellen und Datei dort einsetzen. 
+erstellen und Datei dort einsetzen.
+
+
+Unbedingt eine Funktion entwickeln die vor dem Bewegen der Files prüft ob es schon eine Datei mit dem Namen gibt. Wenn dem so ist, wird sie überschrieben, was zu Datenverlust führen kann.
