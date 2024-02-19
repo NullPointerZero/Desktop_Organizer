@@ -1,4 +1,5 @@
 whitelist.txt
 folderconfig.json
 Readme.txt
-Desktop_sorter.py
+Desktop_Organizer.py
+Desktop_Organizer_Functions.py
